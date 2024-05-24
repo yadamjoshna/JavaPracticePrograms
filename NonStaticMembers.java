@@ -7,11 +7,14 @@ public class NonStaticMembers
     {
         System.out.println("inside nonstatic block");  // nonstatic block
     }
-
     public static void main(String[] args) {          // main
-      new NonStaticMembers();
         System.out.println("inside main method");
-
+        new NonStaticMembers(); // creating multiple methods to show the difference between static and non static members
+        new NonStaticMembers();
+        new NonStaticMembers();
+        new NonStaticMembers();
+    }
+    static {             // static block
+        System.out.println("inside static block");
     }
 }
-
