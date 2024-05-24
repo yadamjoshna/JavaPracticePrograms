@@ -9,7 +9,7 @@ public class NonStaticMembers
     }
     public static void main(String[] args) {          // main
         System.out.println("inside main method");
-        new NonStaticMembers(); // creating multiple methods to show the difference between static and non static members
+        new NonStaticMembers(); // creating multiple objects to show the difference between static and non static members
         new NonStaticMembers();
         new NonStaticMembers();
         new NonStaticMembers();
