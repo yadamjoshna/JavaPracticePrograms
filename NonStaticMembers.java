@@ -1,6 +1,6 @@
 public class NonStaticMembers
 {
-    int num;
+    int num;    // nonstatic variable defining
     NonStaticMembers() {      //constructor
         System.out.println("Inside constructor");
     }
